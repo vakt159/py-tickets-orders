@@ -7,7 +7,8 @@ from cinema.models import (
     Movie,
     MovieSession,
     Order,
-    Ticket)
+    Ticket
+)
 
 
 class GenreSerializer(serializers.ModelSerializer):

@@ -7,7 +7,8 @@ from cinema.models import (
     CinemaHall,
     Movie,
     MovieSession,
-    Order)
+    Order
+)
 
 from cinema.serializers import (
     GenreSerializer,
@@ -19,7 +20,8 @@ from cinema.serializers import (
     MovieDetailSerializer,
     MovieSessionDetailSerializer,
     MovieListSerializer,
-    OrderCreateSerializer, OrderListSerializer
+    OrderCreateSerializer,
+    OrderListSerializer
 )
 
 
